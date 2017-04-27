@@ -1,0 +1,29 @@
+{
+  "name": "stok-config",
+  "version": "0.0.0",
+  "description": "Easily load config values from environment variables",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "nodeunit": "nodeunit tests/**",
+    "test": "npm run lint && npm run nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clipper-digital/stok-config.git"
+  },
+  "author": "Scott González <scott.gonzalez@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clipper-digital/stok-config/issues"
+  },
+  "homepage": "https://github.com/clipper-digital/stok-config#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1",
+    "sinon": "^1.17.3",
+    "standard": "^6.0.8"
+  }
+}
